@@ -1840,7 +1840,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2870ff;
+  background: #8687ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3107,4 +3107,8 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+@font-face {
+  font-family: Hakusyn;
+  src: url("/fonts/Hakusyn.ttf");
 }
