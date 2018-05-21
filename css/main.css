@@ -188,7 +188,7 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #555;
+  color: #222;
   background: #eee;
 }
 @media (max-width: 767px) {
@@ -937,9 +937,9 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 20px;
   font-size: 14px;
-  color: #555;
+  color: #222;
   background: #fff;
-  border: 2px solid #555;
+  border: 2px solid #222;
   text-decoration: none;
   border-radius: 2px;
   transition-property: background-color;
@@ -964,7 +964,7 @@ pre .javascript .function {
   display: block;
   width: 22px;
   height: 2px;
-  background: #555;
+  background: #222;
   border-radius: 1px;
 }
 .btn-bar+.btn-bar {
@@ -1840,7 +1840,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3eabd7;
+  background: #c74e5d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1968,6 +1968,9 @@ img:hover {
 }
 .footer-inner {
   text-align: center;
+}
+#animate {
+  animation: iconAnimate 1.33s ease-in-out infinite;
 }
 .with-love {
   display: inline-block;
@@ -2805,7 +2808,7 @@ ul.breadcrumb li+li:last-child {
 .sidebar-inner {
   box-sizing: border-box;
   width: 240px;
-  color: #555;
+  color: #222;
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   border-radius: initial;
@@ -3111,4 +3114,19 @@ ul.breadcrumb li+li:last-child {
 @font-face {
   font-family: Hakusyn;
   src: url("/fonts/Hakusyn.ttf");
+}
+body {
+  background: url("/images/background.gif");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.sidebar-inner {
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.8;
+}
+.main-inner {
+  opacity: 0.8;
 }
