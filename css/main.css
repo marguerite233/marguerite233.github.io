@@ -1840,7 +1840,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff18dd;
+  background: #7316de;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3116,10 +3116,10 @@ ul.breadcrumb li+li:last-child {
   src: url("/fonts/Hakusyn.ttf");
 }
 body {
-  background: url("/images/sakura.gif");
+  background: url("/images/background.png");
   background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-attachment: scroll;
 }
 .sidebar-inner {
   opacity: 0.8;
