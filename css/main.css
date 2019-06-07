@@ -1840,7 +1840,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f0ff4a;
+  background: #4eda99;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3116,7 +3116,7 @@ ul.breadcrumb li+li:last-child {
   src: url("/fonts/Hakusyn.ttf");
 }
 body {
-  background: url("/images/background.png");
+  background: url("../images/background.png");
   background-position: top center;
   background-repeat: repeat-y;
   background-attachment: scroll;
