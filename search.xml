@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[大学卒業旅行ーー西日本の八日（その弐）]]></title>
-    <url>%2Fgraduation-trip-02.html</url>
-    <content type="text"></content>
+    <title><![CDATA[如何将网站打包到Github仓库]]></title>
+    <url>%2Fhow-to-upload-websites-to-Github.html</url>
+    <content type="text"><![CDATA[1.在Github新建一个仓库，填写必要项，选择Public保证网站能够发布。 2.在要上传的文件夹内输入以下命令：git init 3.可以通过以下命令查询当前状态：git status 4.将项目添加到缓存区：git add . 也可以只添加单个文件：git add &#39;XXX&#39; 5.存入本地仓库：git commit -m &quot;xx（注释）&quot; 6.创建SHH密钥（首次操作）：ssh-keygen -t rsa -C &quot;youremail@example.com&quot; 7.连续回车后就会得到一串SHH Key，将其添加到Github-Settings-SSH and GPG KEYS中。 8.根据Github的提示，复制输入以下命令以添加远程仓库：git remote add origin xxx 9.输入以下命令将本地仓库的文件上传到远程仓库：git push -u origin master（首次上传） git push origin master（二次上传） 10.可以在git init命令完成后使用以下命令添加一个说明文件，保证最后上传时不报错：git add README.me]]></content>
       <categories>
-        <category>日记</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>杂谈</tag>
-        <tag>旅行</tag>
-        <tag>日本</tag>
+        <tag>电脑技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[如何在WIN10系统安装MATLAB]]></title>
+    <url>%2Fhow-to-install-MATLAB-in-win10.html</url>
+    <content type="text"><![CDATA[WIN10在安装MATLAB时可能会遇到“无法访问您试图使用的功能所在的网络位置 无法找到vcredist.msi”的错误而无法安装。 原因分析： Microsoft Visual C++ 2005是MATLAB运行的必要前提，但是高版本的Windows系统没有该版本，需要自己手动安装。因此MATLAB安装程序无法检测到VC2005，故安装无法进行。 解决办法： 1.使用MATLAB安装包中自带的“vcredist_x64.exe”进行安装，完成后再安装MATLAB。 2.若以上方法无效，尝试将MATLAB安装包中自带的“vcredist_x64.exe”取出（位置：…\bin\win64中），将其解压，就会获得两个文件“vcredist.msi”和“vcredis1.cab”。接着安装MATLAB，当安装程序报错时，手动输入刚刚解压得到的“vcredist.msi”文件位置，安装即可继续进行。 后记： 安装MATLAB2019a版本无此问题。]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>电脑技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -22,19 +31,6 @@
       </categories>
       <tags>
         <tag>博客教学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[大学卒業旅行ーー西日本の八日（その壱）]]></title>
-    <url>%2Fgraduation-trip-01.html</url>
-    <content type="text"><![CDATA[2019年5月16日から23日まで私とクラスメートの付（フ）君と一緒に日本の近畿、中国地方などを旅行し、色々な景色や遺跡を見ました。 16日の朝、私達は早起き、揚州駅から高速鉄道（6時45分発）の最初便に乗って南京駅に経由し、南京禄口（ろくこう）国際空港に到着しました。これは二回目の日本訪問ですが、ガードなしのは初めてですから、税関手続きをした時、どきどきにして緊張感がしました。日本時間の午後3時ぐらい、飛行機はようやく関西空港を着陸しました。 入国後、JRの関西空港駅てJR PASSとICOCAカードを受け取りました。前に受け取りの時交流の問題があるかどうかを心配していたが、実は中国人のスタッフが沢山おり、全然大丈夫だ。JR西日本は、ICOCA&amp;HARUKAの特別サービスがあり、ICOCAカードを購入する時、特急列車HARUKAが半額で利用できます。私達はHARUKAに乗り、天王寺駅で大阪環状線に乗り換え、最終は天満駅に到着し、3分程歩いて予約済みのアパートを到着しました。このアパートは鉄道に近付いてちょっとうるさいけど、とても安いです。 夕飯は、近くの居酒屋でやり、その後大阪焼も試してみた。大阪に到着したばかりから、周囲の事に全て新鮮な感じがしました。結局、興奮し過ぎて寝られない夜になりました。 公式サイト： JR PASS ICOCA &amp;HARUKA]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-        <tag>旅行</tag>
-        <tag>日本</tag>
       </tags>
   </entry>
   <entry>
